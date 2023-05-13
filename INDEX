@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Garden Game</title>
+    <style>
+        body {
+            background-color: #F0F0F0;
+            font-family: Arial, sans-serif;
+        }
+        .game-container {
+            position: relative;
+            height: 500px;
+            background: linear-gradient(to bottom, #88cc88, #ffffff);
+        }
+        .character, .garden, .fruit-stand {
+            position: absolute;
+            bottom: 0;
+        }
+        .character {
+            left: 50px;
+            width: 50px;
+            height: 100px;
+            background-color: #000000;
+        }
+        .garden {
+            left: 200px;
+            width: 100px;
+            height: 50px;
+            background-color: #008800;
+        }
+        .fruit-stand {
+            left: 400px;
+            width: 50px;
+            height: 70px;
+            background-color: #884400;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="character"></div>
+        <div class="garden"></div>
+        <div class="fruit-stand"></div>
+    </div>
+</body>
+</html>
